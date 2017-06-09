@@ -30,7 +30,26 @@
 
 
 
-
+@include grid-media($tablet-grid) {
+  .content {
+    @include grid-column(12);
+  }
+  .about {
+    @include grid-column(12 of 12)
+  }
+  .about-alex {
+    @include grid-column(12);
+  }
+  .about-image {
+    @include grid-column(0);
+  }
+  .events {
+    @include grid-column(12);
+    & .event {
+      @include grid-column(6);
+    }
+  }
+}
 
 
 

@@ -69,6 +69,42 @@ span {
   margin-left: 20px;
 }
 
+@media (max-width: 990px) {
+  .content {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+
+  .about {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+
+  .about-alex {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+
+  .about-image {
+    width: calc(0% - 20px);
+    float: left;
+    margin-left: 20px;
+  }
+
+  .events {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+  .events .event {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px;
+  }
+}
 header h1 {
   text-align: center;
   text-shadow: 3px 1px 12px rgba(150, 150, 150, 0.47);
