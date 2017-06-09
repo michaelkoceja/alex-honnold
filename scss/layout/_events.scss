@@ -1,8 +1,8 @@
-.event {
-  & img {
-    width: 100%;
-  }
+.event img {
+  width: 100%;
 }
+
+@include grey-tint;
 
 span {
   font-size: 14px;

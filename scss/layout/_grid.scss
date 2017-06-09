@@ -1,11 +1,15 @@
+.header {
+  @include grid-column(12);
+  @include grid-collapse;
+}
 .content {
   @include grid-column(12);
-  // @include grid-push(1);
   @include grid-container;
 }
 
 .about {
   @include grid-column(10 of 12);
+  @include grid-push(.5);
 }
 
 .about-alex {
@@ -17,6 +21,7 @@
 }
 .events {
   @include grid-column(10);
+  @include grid-push(.5);
 }
 
 .event {
@@ -27,11 +32,29 @@
 
 
 
-// .events {
-//   @include grid-column(12);
-//   @include grid-container;
-// }
-//
-// .event {
-//   @include grid-column(3);
+
+
+
+
+
+
+
+// tablet grid
+
+// @include grid-media($tablet-grid) {
+//   .header {
+//     @include grid-column(12);
+//   }
+//   .content {
+//     @include grid-column(12);
+//     & .about {
+//       @include grid-column(6);
+//       & .about-alex {
+//         @include grid-column(4);
+//       }
+//       .about-image {
+//         @include grid-column(4) ;
+//       }
+//     }
+//   }
 // }

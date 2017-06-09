@@ -1,10 +1,29 @@
+.about {
+  padding: 10px;
+  margin: 0 90px;
+}
+
 .event img {
   width: 100%;
+}
+
+img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 span {
   font-size: 14px;
   font-style: italic;
+}
+
+.header {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
 }
 
 .content {
@@ -22,6 +41,7 @@ span {
   width: calc(83.33333% - 36.66667px);
   float: left;
   margin-left: 20px;
+  margin-left: calc(4.16667% - 20.83333px + 40px);
 }
 
 .about-alex {
@@ -40,6 +60,7 @@ span {
   width: calc(83.33333% - 36.66667px);
   float: left;
   margin-left: 20px;
+  margin-left: calc(4.16667% - 20.83333px + 40px);
 }
 
 .event {
@@ -65,6 +86,11 @@ header h1 {
   width: 100%;
 }
 
+img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -80,12 +106,8 @@ body {
   background-image: url("../img/alex_header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-}
-
-.content {
-  padding: 10px;
-  margin: 0 90px;
+  height: 100vh;
+  width: 100%;
 }
 
 h1 {

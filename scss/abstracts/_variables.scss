@@ -1,3 +1,10 @@
 $grid-gutter: 10px;
 $background-color: #000;
 $text-color: #fff;
+
+$tablet-breakpoint: 768px;
+$tablet-grid: (
+  columns:12,
+  gutters: $grid-gutter,
+  media: "(max-width: 768px)"
+);
