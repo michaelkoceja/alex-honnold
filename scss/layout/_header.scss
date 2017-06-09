@@ -1,0 +1,6 @@
+header {
+  text-align: center;
+  @include border-style(solid);
+  @include border-color(red);
+  @include border-width(1px);
+}

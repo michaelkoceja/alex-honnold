@@ -1,0 +1,18 @@
+.content {
+  @include grid-column(12);
+  // @include grid-push(1);
+  @include grid-container;
+}
+
+.about {
+  @include grid-column(10);
+}
+
+.events {
+  @include grid-column(12);
+  @include grid-container;
+}
+
+.event {
+  @include grid-column(3);
+}

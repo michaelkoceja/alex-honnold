@@ -1,3 +1,70 @@
+.events {
+  background-color: blue;
+}
 
+.content {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+}
+.content::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.about {
+  width: calc(83.33333% - 36.66667px);
+  float: left;
+  margin-left: 20px;
+}
+
+.events {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+}
+.events::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.event {
+  width: calc(25% - 25px);
+  float: left;
+  margin-left: 20px;
+}
+
+header {
+  text-align: center;
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
+}
+
+.about {
+  background-color: red;
+  padding: 10px;
+  margin: 0 90px;
+}
+
+.events {
+  border-style: dotted;
+  border-color: yellow;
+  border-width: 1px;
+  padding: 10px;
+  margin: 0 90px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+}
 
 /*# sourceMappingURL=main.css.map */
