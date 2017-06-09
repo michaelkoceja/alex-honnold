@@ -1,3 +1,10 @@
-.events {
-  background-color: blue;
+.event {
+  & img {
+    width: 100%;
+  }
+}
+
+span {
+  font-size: 14px;
+  font-style: italic;
 }

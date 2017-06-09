@@ -5,14 +5,33 @@
 }
 
 .about {
-  @include grid-column(10);
+  @include grid-column(10 of 12);
 }
 
+.about-alex {
+  @include grid-column(5);
+}
+
+.about-image {
+  @include grid-column(5);
+}
 .events {
-  @include grid-column(12);
-  @include grid-container;
+  @include grid-column(10);
 }
 
 .event {
   @include grid-column(3);
 }
+
+
+
+
+
+// .events {
+//   @include grid-column(12);
+//   @include grid-container;
+// }
+//
+// .event {
+//   @include grid-column(3);
+// }

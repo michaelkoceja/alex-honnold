@@ -1,5 +1,10 @@
-.events {
-  background-color: blue;
+.event img {
+  width: 100%;
+}
+
+span {
+  font-size: 14px;
+  font-style: italic;
 }
 
 .content {
@@ -19,15 +24,22 @@
   margin-left: 20px;
 }
 
-.events {
-  width: calc(100% - 40px);
+.about-alex {
+  width: calc(41.66667% - 28.33333px);
   float: left;
   margin-left: 20px;
 }
-.events::after {
-  clear: both;
-  content: "";
-  display: block;
+
+.about-image {
+  width: calc(41.66667% - 28.33333px);
+  float: left;
+  margin-left: 20px;
+}
+
+.events {
+  width: calc(83.33333% - 36.66667px);
+  float: left;
+  margin-left: 20px;
 }
 
 .event {
@@ -36,25 +48,20 @@
   margin-left: 20px;
 }
 
-header {
+header h1 {
   text-align: center;
-  border-style: solid;
-  border-color: red;
-  border-width: 1px;
+  position: absolute;
+  top: 60vh;
+  left: 65vw;
+  font-size: 60px;
 }
 
-.about {
-  background-color: red;
-  padding: 10px;
-  margin: 0 90px;
+.about p {
+  padding: 0 15px;
 }
 
-.events {
-  border-style: dotted;
-  border-color: yellow;
-  border-width: 1px;
-  padding: 10px;
-  margin: 0 90px;
+.about-image img {
+  width: 100%;
 }
 
 body {
@@ -65,6 +72,27 @@ body {
   margin: 0;
   background-color: #000;
   color: #fff;
+}
+
+.header {
+  position: relative;
+  background-image: url("../img/alex_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.content {
+  padding: 10px;
+  margin: 0 90px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

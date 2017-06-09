@@ -9,7 +9,22 @@ body {
 }
 
 .header {
-  // background-image: url("../img/alex_header.jpg");
-  // background-repeat: no-repeat;
-  // background-size: cover;
+  position: relative;
+  background-image: url("../img/alex_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.content {
+  padding: 10px;
+  margin: 0 90px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
 }

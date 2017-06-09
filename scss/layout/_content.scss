@@ -1,13 +1,7 @@
-.about {
-  background-color: red;
-  padding: 10px;
-  margin: 0 90px;
+.about p {
+    padding: 0 15px;
 }
 
-.events {
-  @include border-style(dotted);
-  @include border-color(yellow);
-  @include border-width(1px);
-  padding: 10px;
-  margin: 0 90px;
+.about-image img {
+  width: 100%;
 }
