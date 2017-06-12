@@ -105,6 +105,36 @@ span {
     margin-left: 20px;
   }
 }
+@media (max-width: 600px) {
+  .content {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+
+  .about {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+
+  .about-image {
+    width: calc(0% - 20px);
+    float: left;
+    margin-left: 20px;
+  }
+
+  .events {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+  .events .event {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+}
 header h1 {
   text-align: center;
   text-shadow: 3px 1px 12px rgba(150, 150, 150, 0.47);
@@ -152,6 +182,16 @@ h1 {
 
 h2 {
   text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
 
 /*# sourceMappingURL=main.css.map */

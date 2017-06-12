@@ -9,7 +9,7 @@
 
 .about {
   @include grid-column(10 of 12);
-  @include grid-push(.5);
+  @include grid-push(0.5);
 }
 
 .about-alex {
@@ -52,6 +52,27 @@
 }
 
 
+
+@include grid-media($mobile-grid) {
+  .content {
+    @include grid-column(12);
+  }
+  // .header {
+  //   @include hide-background;
+  // }
+  .about {
+    @include grid-column(12 of 12);
+  }
+  .about-image {
+    @include grid-column(0);
+  }
+  .events {
+    @include grid-column(12);
+    & .event {
+      @include grid-column(12);
+    }
+  }
+}
 
 
 

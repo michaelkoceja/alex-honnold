@@ -3,7 +3,13 @@ $background-color: #000;
 $text-color: #fff;
 
 $tablet-grid: (
-  columns:12,
+  columns: 12,
   gutters: 2px,
   media: "(max-width: 990px)"
+);
+
+$mobile-grid: (
+  columns: 12,
+  gutters: 2px,
+  media: "(max-width: 600px)"
 );
