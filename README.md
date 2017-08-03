@@ -6,7 +6,7 @@
 
 ## Description
 
-* This is a project where I created a tribute page using Sass.
+* This is a project where I created a tribute page using Sass and Neat to create my own grid.
 
 ## User Story:
 
@@ -33,6 +33,7 @@ For questions, concerns, or feedback, email me at michael.koceja@gmail.com
 * HTML
 * CSS
 * Sass
+* Neat
 
 ### License
 
