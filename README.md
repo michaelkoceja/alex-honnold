@@ -6,7 +6,7 @@
 
 ## Description
 
-* This is a project where I created a tribute paging using Sass.
+* This is a project where I created a tribute page using Sass.
 
 ## User Story:
 
